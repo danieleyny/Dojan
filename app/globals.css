@@ -1,26 +1,161 @@
 @import "tailwindcss";
 
+@theme {
+  --color-bg: #fbfaf7;
+  --color-surface: #ffffff;
+  --color-surface-2: #f5f3ec;
+  --color-border: #e8e5dd;
+  --color-border-strong: #d4cfc1;
+  --color-ink: #0e1116;
+  --color-ink-muted: #4a5057;
+  --color-ink-subtle: #6f7782;
+
+  --color-brand: #0f4c5c;
+  --color-brand-50: #eaf2f4;
+  --color-brand-100: #c8dde2;
+  --color-brand-500: #1e7a8c;
+  --color-brand-600: #0f4c5c;
+  --color-brand-700: #0a3845;
+
+  --color-accent: #f76b53;
+  --color-accent-50: #fde9e3;
+  --color-accent-500: #f76b53;
+  --color-accent-600: #e04f37;
+
+  --color-success: #2e9e6b;
+  --color-warning: #e0a526;
+  --color-danger: #d14b4b;
+
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 14px;
+  --radius-xl: 20px;
+  --radius-2xl: 28px;
+
+  --shadow-sm: 0 1px 2px rgb(15 17 22 / 0.06);
+  --shadow-md: 0 4px 16px rgb(15 17 22 / 0.08);
+  --shadow-lg: 0 12px 36px rgb(15 17 22 / 0.12);
+
+  --font-display-he: var(--font-rubik), system-ui, sans-serif;
+  --font-body-he: var(--font-heebo), system-ui, sans-serif;
+  --font-display-en: var(--font-inter), system-ui, sans-serif;
+  --font-body-en: var(--font-inter), system-ui, sans-serif;
+}
+
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  color-scheme: light;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+html {
+  background: var(--color-bg);
+  color: var(--color-ink);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html[lang="he"] body {
+  font-family: var(--font-body-he);
+}
+
+html[lang="en"] body {
+  font-family: var(--font-body-en);
+}
+
+html[lang="he"] h1,
+html[lang="he"] h2,
+html[lang="he"] h3,
+html[lang="he"] .display {
+  font-family: var(--font-display-he);
+  letter-spacing: -0.01em;
+}
+
+html[lang="en"] h1,
+html[lang="en"] h2,
+html[lang="en"] h3,
+html[lang="en"] .display {
+  font-family: var(--font-display-en);
+  letter-spacing: -0.02em;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: var(--color-bg);
+  color: var(--color-ink);
+}
+
+::selection {
+  background: var(--color-accent);
+  color: white;
+}
+
+/* Smooth scroll for anchor jumps */
+html {
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* Hide scrollbar utility for horizontal rails */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Subtle gradient backgrounds */
+.bg-warm-radial {
+  background:
+    radial-gradient(1200px 600px at 50% -10%, rgba(247, 107, 83, 0.18), transparent 60%),
+    radial-gradient(1000px 500px at 100% 0%, rgba(15, 76, 92, 0.10), transparent 60%),
+    var(--color-bg);
+}
+
+.bg-sand {
+  background: linear-gradient(180deg, #fbfaf7 0%, #f1ede2 100%);
+}
+
+/* Decorative grain */
+.grain {
+  position: relative;
+}
+.grain::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2'/%3E%3CfeColorMatrix values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.06 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  opacity: 0.6;
+  mix-blend-mode: multiply;
+}
+
+/* Leaflet override: friendlier feel */
+.leaflet-container {
+  font-family: inherit;
+  background: #f0ece2;
+}
+.leaflet-popup-content-wrapper,
+.leaflet-popup-tip {
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-md);
+}
+.leaflet-popup-content {
+  margin: 0 !important;
+  width: auto !important;
+}
+.leaflet-control-attribution {
+  font-size: 10px !important;
+  background: rgba(255, 255, 255, 0.7) !important;
 }

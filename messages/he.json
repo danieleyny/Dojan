@@ -1,0 +1,355 @@
+{
+  "brand": {
+    "name": "Dojan",
+    "tagline": "המפה החדשה של אומנויות הלחימה בישראל"
+  },
+  "nav": {
+    "discover": "גלה",
+    "disciplines": "אומנויות לחימה",
+    "cities": "ערים",
+    "quiz": "מצא את שלך",
+    "blog": "מדריכים",
+    "list_your_gym": "הוסף את המועדון שלך",
+    "sign_in": "התחבר",
+    "search": "חפש",
+    "for_business": "לבעלי מועדונים"
+  },
+  "tabbar": {
+    "home": "בית",
+    "search": "חיפוש",
+    "saved": "שמור",
+    "quiz": "התאמה",
+    "account": "חשבון"
+  },
+  "home": {
+    "hero": {
+      "kicker": "אומנויות לחימה • כושר • הגנה עצמית",
+      "title": "מצאי את המועדון שלך.",
+      "title_accent": "בעברית. במפה. בקליק.",
+      "subtitle": "פלטפורמת הגילוי הראשונה לאומנויות לחימה בישראל. למעלה מ־800 מועדונים, 50 דיסציפלינות, ביקורות מאומתות, ושיעור ניסיון בחינם — הכל במקום אחד.",
+      "search_placeholder": "חפשי לפי עיר, שכונה או דיסציפלינה",
+      "search_btn": "חפש",
+      "near_me": "מצא קרוב אליי",
+      "popular_searches": "חיפושים פופולריים",
+      "popular_terms": ["קרב מגע בתל אביב", "BJJ ילדים", "מואי תאי בחיפה", "ג'ודו לילדים"]
+    },
+    "quiz_card": {
+      "kicker": "לא בטוח באיזו אומנות לחימה להתחיל?",
+      "title": "ענה על 8 שאלות. נאמר לך.",
+      "subtitle": "הציון שלך, הגיל שלך, המטרות שלך — בלי לוקשים.",
+      "cta": "התחל את ההתאמה"
+    },
+    "rails": {
+      "disciplines_title": "מה תרצה ללמוד?",
+      "disciplines_subtitle": "מקרב מגע ועד טאי צ'י — מדריך מלא ל-50+ אומנויות הלחימה החיות בישראל.",
+      "near_you_title": "קרוב אליך",
+      "near_you_subtitle": "המועדונים הכי מובילים ברדיוס של 5 ק\"מ סביבך.",
+      "kids_title": "מותאם לילדים",
+      "kids_subtitle": "מועדונים עם תוכניות ילדים מ-3-12, מאמני ילדים מוסמכים, וסביבה בטוחה.",
+      "cities_title": "מצאי לפי עיר",
+      "cities_subtitle": "8 ערים מובילות, אלפי מועדונים מאומתים.",
+      "see_all": "ראה הכל"
+    },
+    "trust": {
+      "title": "למה Dojan",
+      "verified": {
+        "title": "ביקורות מאומתות",
+        "body": "כל ביקורת קשורה לשיעור ניסיון אמיתי שהתלמיד השתתף בו. בלי בוטים, בלי הטיות."
+      },
+      "trial": {
+        "title": "שיעור ניסיון בחינם",
+        "body": "כמעט כל מועדון ב-Dojan מציע שיעור ניסיון בחינם או במחיר סמלי. בלי לחץ, בלי התחייבות."
+      },
+      "bilingual": {
+        "title": "עברית ואנגלית מבית הבריאות",
+        "body": "פלטפורמה ישראלית מלידה. תוכן מלא בעברית, אופציה מלאה באנגלית עבור עולים, מטיילים, ויחידות זרות."
+      }
+    },
+    "encyclopedia_teaser": {
+      "kicker": "האנציקלופדיה",
+      "title": "כל אומנות לחימה. כל הסיפור. בעברית.",
+      "subtitle": "מאמרים מעמיקים על ההיסטוריה, הפילוסופיה, הטכניקות, והקהילה — לכל אומנות לחימה הנלמדת בישראל.",
+      "cta": "כל המאמרים"
+    },
+    "footer_cta": {
+      "title": "אתה מנהל מועדון?",
+      "subtitle": "פרסם שיעורים, נהל ביקורות, וקבל לידים לשיעור ניסיון. חינם ב-90 הימים הראשונים.",
+      "cta": "פתח דף מועדון"
+    }
+  },
+  "discipline": {
+    "page_title_suffix": " — מדריך מלא | Dojan",
+    "founded": "נוסדה",
+    "origin": "מקור",
+    "difficulty": "רמת קושי",
+    "contact": "רמת מגע",
+    "good_for": "מתאים ל",
+    "history": "היסטוריה",
+    "philosophy": "פילוסופיה",
+    "techniques": "טכניקות מרכזיות",
+    "famous": "תלמידים מפורסמים",
+    "benefits": "מה תרוויחי",
+    "who_for": "למי זה מתאים",
+    "compare": "השווי עם",
+    "where": "איפה ללמוד",
+    "where_subtitle": "מועדונים מובילים ב-Dojan שמלמדים את הדיסציפלינה הזו, ממוינים לפי דירוג.",
+    "all_in_city": "כל המועדונים ב{city}",
+    "faq": "שאלות נפוצות",
+    "related_articles": "מאמרים קשורים",
+    "good_for_labels": {
+      "kids": "ילדים",
+      "self-defense": "הגנה עצמית",
+      "fitness": "כושר",
+      "competition": "תחרויות",
+      "discipline": "משמעת",
+      "weight-loss": "ירידה במשקל",
+      "stress-relief": "הפגת לחץ"
+    },
+    "family_labels": {
+      "israeli": "ישראלי",
+      "japanese": "יפני",
+      "chinese": "סיני",
+      "korean": "קוריאני",
+      "thai": "תאילנדי",
+      "brazilian": "ברזילאי",
+      "western": "מערבי",
+      "mixed": "מעורב",
+      "filipino": "פיליפיני",
+      "russian": "רוסי"
+    }
+  },
+  "disciplines_hub": {
+    "kicker": "האנציקלופדיה",
+    "title": "כל אומנויות הלחימה הנלמדות בישראל",
+    "subtitle": "50+ דיסציפלינות. ההיסטוריה, הטכניקות, מי מלמדת, ואיפה. מדריך הגילוי המעמיק ביותר בעברית.",
+    "filter_by_family": "סנן לפי משפחה",
+    "filter_all": "כולן"
+  },
+  "gym": {
+    "claimed": "מועדון מאומת",
+    "premium": "מומלץ Dojan",
+    "rating_count": "{count} ביקורות",
+    "trial": "שיעור ניסיון",
+    "trial_free": "ניסיון חינם",
+    "trial_priced": "ניסיון ב-₪{price}",
+    "book_trial": "הזמן שיעור ניסיון",
+    "save": "שמור",
+    "share": "שתף",
+    "directions": "ניווט",
+    "call": "חייג",
+    "whatsapp": "וואטסאפ",
+    "about": "על המועדון",
+    "show_more": "הראה עוד",
+    "show_less": "הראה פחות",
+    "schedule": "לוח שיעורים",
+    "schedule_subtitle": "כל השיעורים השבועיים. לחיצה על שיעור פותחת את הזמנת הניסיון.",
+    "instructors": "המאמנים",
+    "instructor_years": "{years} שנות הוראה",
+    "reviews": "ביקורות",
+    "verified_review": "ניסיון מאומת",
+    "review_rating_breakdown": "דירוג ב-5 ממדים",
+    "rating_dimensions": {
+      "instructor": "מאמן",
+      "facilities": "ציוד ומקום",
+      "value": "ערך לכסף",
+      "atmosphere": "אווירה",
+      "beginner_friendly": "ידידותי למתחילים"
+    },
+    "all_reviews": "כל הביקורות",
+    "leave_review": "כתבי ביקורת",
+    "amenities": "מה יש במקום",
+    "price_range": "טווח מחירים",
+    "price_value": "₪{min}–{max} לחודש",
+    "languages": "שפות הוראה",
+    "languages_value": "עברית, אנגלית",
+    "similar": "מועדונים דומים בקרבת מקום",
+    "faq": "שאלות נפוצות",
+    "last_updated": "עודכן לאחרונה",
+    "report_error": "דווחי על שגיאה"
+  },
+  "search": {
+    "title": "חיפוש מועדונים",
+    "results_count": "{count} תוצאות",
+    "no_results_title": "לא מצאנו מועדונים שמתאימים לסינון",
+    "no_results_subtitle": "נסי להפחית פילטרים או לבחון אזור גיאוגרפי שונה.",
+    "clear": "נקה סינון",
+    "search_this_area": "חפש באזור הזה",
+    "filter_disciplines": "אומנות לחימה",
+    "filter_age": "קבוצת גיל",
+    "filter_level": "רמה",
+    "filter_price": "מחיר",
+    "filter_trial": "ניסיון בחינם",
+    "filter_beginner": "מתאים למתחילים",
+    "list": "רשימה",
+    "map": "מפה",
+    "show_filters": "פילטרים",
+    "hide_filters": "הסתר",
+    "sort_by": "מיון",
+    "sort_options": {
+      "rating": "דירוג",
+      "distance": "מרחק",
+      "price": "מחיר"
+    },
+    "filter_age_options": {
+      "kids": "ילדים",
+      "teens": "נוער",
+      "adults": "מבוגרים",
+      "seniors": "65+",
+      "women-only": "נשים בלבד"
+    },
+    "filter_level_options": {
+      "beginner": "מתחילים",
+      "intermediate": "בינוני",
+      "advanced": "מתקדם"
+    }
+  },
+  "city": {
+    "page_title_prefix": "אומנויות לחימה ב",
+    "subtitle": "{count} מועדונים מובילים ב{city}. מאומתים, מדורגים, וזמינים לשיעור ניסיון.",
+    "top_disciplines": "הדיסציפלינות הפופולריות ב{city}",
+    "all_gyms": "כל המועדונים ב{city}",
+    "neighborhoods": "לפי שכונה",
+    "related_cities": "ערים נוספות"
+  },
+  "city_discipline": {
+    "title": "{discipline} ב{city}",
+    "subtitle": "{count} מועדוני {discipline} מאומתים ב{city}. שיעורי ניסיון, ביקורות, ולוח זמנים מלא.",
+    "beginners_guide": "מדריך מתחיל",
+    "related_cities": "{discipline} בערים נוספות",
+    "related_disciplines": "אומנויות לחימה נוספות ב{city}"
+  },
+  "quiz": {
+    "title": "איזו אומנות לחימה מתאימה לך?",
+    "subtitle": "8 שאלות. תשובה מותאמת. שלוש המלצות מדורגות.",
+    "start": "התחל",
+    "next": "הבא",
+    "back": "חזור",
+    "see_result": "ראה תוצאה",
+    "progress": "{current} מתוך {total}",
+    "result_title": "התוצאה שלך",
+    "result_subtitle": "על סמך התשובות שלך, אלה שלוש האומנויות שיתאימו לך:",
+    "find_gyms": "מצא מועדונים בקרבתך",
+    "share": "שתפי את התוצאה",
+    "questions": [
+      {
+        "q": "מה המוטיבציה העיקרית שלך?",
+        "options": [
+          { "label": "הגנה עצמית — לדעת לעמוד על עצמי ברחוב", "tags": ["self-defense"] },
+          { "label": "כושר ובריאות — לרדת במשקל ולהיות חזק יותר", "tags": ["fitness", "weight-loss"] },
+          { "label": "תחרויות — אני אוהב להתחרות ולמדוד את עצמי", "tags": ["competition"] },
+          { "label": "שלווה ומשמעת — לבנות הרגל וריכוז", "tags": ["discipline", "stress-relief"] }
+        ]
+      },
+      {
+        "q": "כמה אינטראקציה פיזית את מוכנה לקבל?",
+        "options": [
+          { "label": "מינימלית — בלי מכות בראש בבקשה", "tags": ["low-contact"] },
+          { "label": "מתונה — מגע אחרי שאני מוכנה", "tags": ["medium-contact"] },
+          { "label": "מלאה — באתי לאמן בהתמודדויות אמיתיות", "tags": ["high-contact"] }
+        ]
+      },
+      {
+        "q": "איזה גוף יש לך?",
+        "options": [
+          { "label": "קל וזריז", "tags": ["light"] },
+          { "label": "ממוצע", "tags": ["medium"] },
+          { "label": "חזק וכבד", "tags": ["heavy"] }
+        ]
+      },
+      {
+        "q": "איפה את מרגישה הכי בנוח?",
+        "options": [
+          { "label": "עומדת — אגרוף, בעיטות", "tags": ["standing"] },
+          { "label": "על הקרקע — אחיזות, חיכוך", "tags": ["ground"] },
+          { "label": "תלוי — אני גמישה לשתי הגישות", "tags": ["both"] }
+        ]
+      },
+      {
+        "q": "מה הקצב המועדף עליך?",
+        "options": [
+          { "label": "מהיר ומשוחרר", "tags": ["fast"] },
+          { "label": "טכני ומדוד", "tags": ["technical"] },
+          { "label": "אינטנסיבי ומאתגר", "tags": ["intense"] }
+        ]
+      },
+      {
+        "q": "האם תרצי תחרויות בעתיד?",
+        "options": [
+          { "label": "כן, ברצינות", "tags": ["competition"] },
+          { "label": "אולי, פעם", "tags": ["maybe-comp"] },
+          { "label": "לא, רק לעצמי", "tags": ["personal"] }
+        ]
+      },
+      {
+        "q": "כמה אימונים בשבוע תוכלי להקדיש?",
+        "options": [
+          { "label": "1-2", "tags": ["light-schedule"] },
+          { "label": "3-4", "tags": ["medium-schedule"] },
+          { "label": "5+", "tags": ["heavy-schedule"] }
+        ]
+      },
+      {
+        "q": "האם יש לך פציעות או מגבלות?",
+        "options": [
+          { "label": "לא", "tags": ["no-limits"] },
+          { "label": "ברכיים / גב — אני נזהרת", "tags": ["joints"] },
+          { "label": "כתפיים", "tags": ["shoulders"] }
+        ]
+      }
+    ]
+  },
+  "filters": {
+    "showing": "מציג",
+    "of": "מתוך",
+    "results": "תוצאות"
+  },
+  "common": {
+    "see_more": "הצג עוד",
+    "see_all": "הצג הכל",
+    "back": "חזרה",
+    "from": "מ",
+    "kids": "ילדים",
+    "teens": "נוער",
+    "adults": "מבוגרים",
+    "women_only": "נשים בלבד",
+    "free": "חינם",
+    "stars": "כוכבים",
+    "minutes_walk": "דקות הליכה",
+    "km_away": "{km} ק\"מ ממך",
+    "loading": "טוען...",
+    "error": "משהו השתבש"
+  },
+  "footer": {
+    "tagline": "פלטפורמת הגילוי לאומנויות לחימה בישראל.",
+    "explore": "גלה",
+    "for_business": "למועדונים",
+    "company": "החברה",
+    "legal": "משפטי",
+    "rights": "© 2026 Dojan. כל הזכויות שמורות.",
+    "made_with": "נבנה בלב, בתל אביב",
+    "links": {
+      "disciplines": "אומנויות לחימה",
+      "cities": "ערים",
+      "quiz": "מצא את שלך",
+      "blog": "מדריכים",
+      "list_gym": "פרסם את המועדון שלך",
+      "pricing": "תמחור",
+      "for_owners": "למנהלי מועדונים",
+      "about": "אודות",
+      "contact": "צור קשר",
+      "press": "עיתונות",
+      "privacy": "פרטיות",
+      "terms": "תנאי שימוש"
+    }
+  },
+  "days": {
+    "0": "ראשון",
+    "1": "שני",
+    "2": "שלישי",
+    "3": "רביעי",
+    "4": "חמישי",
+    "5": "שישי",
+    "6": "שבת",
+    "short": ["א", "ב", "ג", "ד", "ה", "ו", "ש"]
+  }
+}

@@ -36,6 +36,11 @@ yarn-error.log*
 # vercel
 .vercel
 
+# private strategy & planning docs (kept local only)
+BUILD_PROMPT.md
+*.private.md
+strategy/
+
 # typescript
 *.tsbuildinfo
 next-env.d.ts
