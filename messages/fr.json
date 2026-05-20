@@ -1,0 +1,132 @@
+{
+  "brand": { "name": "Dojan", "tagline": "La nouvelle carte des arts martiaux en Israël" },
+  "nav": { "discover": "Découvrir", "disciplines": "Disciplines", "cities": "Villes", "quiz": "Trouve ton style", "blog": "Guides", "list_your_gym": "Inscrire votre club", "sign_in": "Connexion", "search": "Rechercher", "for_business": "Propriétaires" },
+  "tabbar": { "home": "Accueil", "search": "Recherche", "saved": "Sauvegardés", "quiz": "Match", "account": "Compte" },
+  "home": {
+    "hero": {
+      "kicker": "Arts Martiaux • Fitness de Combat • Self-Défense",
+      "title": "Trouvez votre club.",
+      "title_accent": "Sur la carte. En un clic.",
+      "subtitle": "La première plateforme moderne d'arts martiaux en Israël. Plus de 800 clubs, 50 disciplines, avis vérifiés et cours d'essai gratuit — tout au même endroit.",
+      "search_placeholder": "Cherchez par ville, quartier ou discipline",
+      "search_btn": "Rechercher",
+      "near_me": "Près de moi",
+      "popular_searches": "Recherches populaires",
+      "popular_terms": ["Krav Maga à Tel Aviv", "BJJ enfants", "Muay Thai à Haïfa", "Judo enfants"]
+    },
+    "quiz_card": { "kicker": "Vous ne savez pas par où commencer ?", "title": "Répondez à 8 questions. On vous trouve votre match.", "subtitle": "Votre corps, vos objectifs, votre emploi du temps — sans deviner.", "cta": "Commencer" },
+    "rails": {
+      "disciplines_title": "Que voulez-vous apprendre ?",
+      "disciplines_subtitle": "Du Krav Maga au Tai Chi — le guide complet des 50+ arts martiaux en Israël.",
+      "near_you_title": "Près de chez vous",
+      "near_you_subtitle": "Les meilleurs clubs à moins de 5 km.",
+      "kids_title": "Pour les enfants",
+      "kids_subtitle": "Clubs avec programmes dédiés (3–12 ans), entraîneurs certifiés, environnement sûr.",
+      "cities_title": "Par ville",
+      "cities_subtitle": "8 villes principales, milliers de clubs vérifiés.",
+      "see_all": "Tout voir"
+    },
+    "trust": {
+      "title": "Pourquoi Dojan",
+      "verified": { "title": "Avis vérifiés", "body": "Chaque avis est lié à un cours d'essai réel. Pas de bots, pas de manipulation." },
+      "trial": { "title": "Cours d'essai gratuit", "body": "Presque tous les clubs sur Dojan proposent un cours d'essai gratuit ou à petit prix. Sans pression, sans engagement." },
+      "bilingual": { "title": "Anglais, français et plus", "body": "Pensée pour les voyageurs : contenu en cinq langues, instructeurs anglophones dans chaque grande ville." }
+    },
+    "encyclopedia_teaser": { "kicker": "L'Encyclopédie", "title": "Chaque art martial. Toute l'histoire.", "subtitle": "Articles approfondis sur l'histoire, la philosophie, les techniques et la communauté de chaque art martial enseigné en Israël.", "cta": "Tous les articles" },
+    "footer_cta": { "title": "Vous dirigez un club ?", "subtitle": "Publiez vos cours, gérez vos avis et recevez des leads pour les essais. Gratuit les 90 premiers jours.", "cta": "Ouvrir une page club" }
+  },
+  "discipline": {
+    "page_title_suffix": " — Guide Complet | Dojan",
+    "founded": "Fondé en", "origin": "Origine", "difficulty": "Difficulté", "contact": "Niveau de contact", "good_for": "Idéal pour",
+    "history": "Histoire", "philosophy": "Philosophie", "techniques": "Techniques clés", "famous": "Pratiquants célèbres",
+    "benefits": "Ce que vous gagnerez", "who_for": "Pour qui c'est", "compare": "Comparer avec",
+    "where": "Où apprendre", "where_subtitle": "Les meilleurs clubs Dojan enseignant cette discipline, classés par note.",
+    "all_in_city": "Tous les clubs à {city}", "faq": "Questions fréquentes", "related_articles": "Articles liés",
+    "good_for_labels": { "kids": "Enfants", "self-defense": "Self-défense", "fitness": "Fitness", "competition": "Compétition", "discipline": "Discipline", "weight-loss": "Perte de poids", "stress-relief": "Anti-stress" },
+    "family_labels": { "israeli": "Israélien", "japanese": "Japonais", "chinese": "Chinois", "korean": "Coréen", "thai": "Thaïlandais", "brazilian": "Brésilien", "western": "Occidental", "mixed": "Mixte", "filipino": "Philippin", "russian": "Russe" }
+  },
+  "disciplines_hub": { "kicker": "L'Encyclopédie", "title": "Tous les arts martiaux enseignés en Israël", "subtitle": "50+ disciplines. L'histoire, les techniques, qui enseigne et où. Le guide le plus complet du pays.", "filter_by_family": "Filtrer par famille", "filter_all": "Toutes" },
+  "gym": {
+    "claimed": "Club Vérifié", "premium": "Mis en avant Dojan", "rating_count": "{count} avis",
+    "trial": "Cours d'essai", "trial_free": "Essai gratuit", "trial_priced": "Essai ₪{price}",
+    "book_trial": "Réserver un essai", "save": "Sauver", "share": "Partager", "directions": "Itinéraire", "call": "Appeler", "whatsapp": "WhatsApp",
+    "about": "À propos", "show_more": "Voir plus", "show_less": "Voir moins",
+    "schedule": "Planning hebdomadaire", "schedule_subtitle": "Tous les cours de la semaine. Cliquez sur un cours pour réserver.",
+    "instructors": "Entraîneurs", "instructor_years": "{years} ans d'enseignement",
+    "reviews": "Avis", "verified_review": "Présence vérifiée", "review_rating_breakdown": "Note sur 5 axes",
+    "rating_dimensions": { "instructor": "Entraîneur", "facilities": "Installations", "value": "Rapport qualité-prix", "atmosphere": "Ambiance", "beginner_friendly": "Adapté aux débutants" },
+    "all_reviews": "Tous les avis", "leave_review": "Laisser un avis",
+    "amenities": "Équipements", "price_range": "Tarif", "price_value": "₪{min}–{max} / mois", "languages": "Langues", "languages_value": "Hébreu, Anglais",
+    "similar": "Clubs similaires à proximité", "faq": "Questions fréquentes", "last_updated": "Mis à jour", "report_error": "Signaler une erreur"
+  },
+  "search": {
+    "title": "Rechercher des clubs", "results_count": "{count} résultats",
+    "no_results_title": "Aucun club ne correspond à ces filtres", "no_results_subtitle": "Essayez de retirer un filtre ou d'élargir la zone.",
+    "clear": "Effacer les filtres", "search_this_area": "Rechercher dans cette zone",
+    "filter_disciplines": "Discipline", "filter_age": "Âge", "filter_level": "Niveau", "filter_price": "Prix", "filter_trial": "Essai disponible", "filter_beginner": "Débutant",
+    "list": "Liste", "map": "Carte", "show_filters": "Filtres", "hide_filters": "Masquer", "sort_by": "Trier",
+    "sort_options": { "rating": "Note", "distance": "Distance", "price": "Prix" },
+    "filter_age_options": { "kids": "Enfants", "teens": "Ados", "adults": "Adultes", "seniors": "65+", "women-only": "Femmes uniquement" },
+    "filter_level_options": { "beginner": "Débutant", "intermediate": "Intermédiaire", "advanced": "Avancé" }
+  },
+  "city": { "page_title_prefix": "Arts Martiaux à ", "subtitle": "{count} clubs sélectionnés à {city}. Vérifiés, notés et prêts pour un cours d'essai.", "top_disciplines": "Populaire à {city}", "all_gyms": "Tous les clubs à {city}", "neighborhoods": "Par quartier", "related_cities": "Autres villes" },
+  "city_discipline": { "title": "{discipline} à {city}", "subtitle": "{count} clubs de {discipline} vérifiés à {city}. Essais, avis, plannings complets.", "beginners_guide": "Guide débutant", "related_cities": "{discipline} dans d'autres villes", "related_disciplines": "Autres arts martiaux à {city}" },
+  "quiz": {
+    "title": "Quel art martial est fait pour vous ?", "subtitle": "8 questions. Réponse personnalisée. Trois recommandations classées.",
+    "start": "Commencer", "next": "Suivant", "back": "Retour", "see_result": "Voir le résultat",
+    "progress": "{current} sur {total}", "result_title": "Votre résultat", "result_subtitle": "D'après vos réponses, voici les trois arts martiaux qui vous correspondent le mieux :",
+    "find_gyms": "Trouver des clubs", "share": "Partager le résultat",
+    "questions": [
+      { "q": "Quelle est votre motivation principale ?", "options": [
+        { "label": "Self-défense — savoir me défendre", "tags": ["self-defense"] },
+        { "label": "Fitness — perdre du poids, gagner en force", "tags": ["fitness", "weight-loss"] },
+        { "label": "Compétition — j'aime le défi", "tags": ["competition"] },
+        { "label": "Calme et discipline — construire une habitude", "tags": ["discipline", "stress-relief"] }
+      ] },
+      { "q": "Quel niveau de contact physique ?", "options": [
+        { "label": "Minimal — pas de coups à la tête, s'il vous plaît", "tags": ["low-contact"] },
+        { "label": "Modéré — quand je serai prêt(e)", "tags": ["medium-contact"] },
+        { "label": "Complet — je viens pour de vrais échanges", "tags": ["high-contact"] }
+      ] },
+      { "q": "Votre corps ?", "options": [
+        { "label": "Léger et rapide", "tags": ["light"] },
+        { "label": "Moyen", "tags": ["medium"] },
+        { "label": "Costaud et lourd", "tags": ["heavy"] }
+      ] },
+      { "q": "Où vous sentez-vous le plus à l'aise ?", "options": [
+        { "label": "Debout — frapper, bouger", "tags": ["standing"] },
+        { "label": "Au sol — saisies, friction", "tags": ["ground"] },
+        { "label": "Les deux", "tags": ["both"] }
+      ] },
+      { "q": "Quel rythme préférez-vous ?", "options": [
+        { "label": "Rapide et libre", "tags": ["fast"] },
+        { "label": "Technique et mesuré", "tags": ["technical"] },
+        { "label": "Intense et exigeant", "tags": ["intense"] }
+      ] },
+      { "q": "Souhaitez-vous compétir ?", "options": [
+        { "label": "Oui, sérieusement", "tags": ["competition"] },
+        { "label": "Peut-être, un jour", "tags": ["maybe-comp"] },
+        { "label": "Non, juste pour moi", "tags": ["personal"] }
+      ] },
+      { "q": "Combien de séances par semaine ?", "options": [
+        { "label": "1–2", "tags": ["light-schedule"] },
+        { "label": "3–4", "tags": ["medium-schedule"] },
+        { "label": "5+", "tags": ["heavy-schedule"] }
+      ] },
+      { "q": "Des blessures ou limites ?", "options": [
+        { "label": "Aucune", "tags": ["no-limits"] },
+        { "label": "Genoux / dos — prudent(e)", "tags": ["joints"] },
+        { "label": "Épaules", "tags": ["shoulders"] }
+      ] }
+    ]
+  },
+  "filters": { "showing": "Affichage", "of": "sur", "results": "résultats" },
+  "common": { "see_more": "Voir plus", "see_all": "Tout voir", "back": "Retour", "from": "à partir de", "kids": "Enfants", "teens": "Ados", "adults": "Adultes", "women_only": "Femmes uniquement", "free": "Gratuit", "stars": "étoiles", "minutes_walk": "min à pied", "km_away": "{km} km", "loading": "Chargement…", "error": "Une erreur est survenue" },
+  "footer": {
+    "tagline": "La plateforme de découverte des arts martiaux en Israël.",
+    "explore": "Explorer", "for_business": "Pour les clubs", "company": "Société", "legal": "Mentions légales",
+    "rights": "© 2026 Dojan. Tous droits réservés.", "made_with": "Fait avec cœur à Tel Aviv",
+    "links": { "disciplines": "Disciplines", "cities": "Villes", "quiz": "Trouve ton style", "blog": "Guides", "list_gym": "Inscrire votre club", "pricing": "Tarifs", "for_owners": "Pour les propriétaires", "about": "À propos", "contact": "Contact", "press": "Presse", "privacy": "Confidentialité", "terms": "Conditions" }
+  },
+  "days": { "0": "Dimanche", "1": "Lundi", "2": "Mardi", "3": "Mercredi", "4": "Jeudi", "5": "Vendredi", "6": "Samedi", "short": ["D", "L", "M", "M", "J", "V", "S"] }
+}

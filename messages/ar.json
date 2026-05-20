@@ -1,0 +1,133 @@
+{
+  "brand": { "name": "Dojan", "tagline": "الخريطة الجديدة لفنون القتال في إسرائيل" },
+  "nav": { "discover": "اكتشف", "disciplines": "الفنون القتالية", "cities": "المدن", "quiz": "اعثر على رياضتك", "blog": "أدلة", "list_your_gym": "أضف ناديك", "sign_in": "تسجيل الدخول", "search": "بحث", "for_business": "لأصحاب الأندية" },
+  "tabbar": { "home": "الرئيسية", "search": "بحث", "saved": "المحفوظات", "quiz": "مطابقة", "account": "حسابي" },
+  "home": {
+    "hero": {
+      "kicker": "فنون قتالية • لياقة قتالية • دفاع عن النفس",
+      "title": "اعثر على ناديك.",
+      "title_accent": "على الخريطة. بنقرة واحدة.",
+      "subtitle": "أول منصة حديثة لفنون القتال في إسرائيل. أكثر من 800 نادٍ، و50 رياضة، ومراجعات موثقة، وحصة تجريبية مجانية — كل ذلك في مكان واحد.",
+      "search_placeholder": "ابحث حسب المدينة أو الحي أو الرياضة",
+      "search_btn": "بحث",
+      "near_me": "قريب مني",
+      "popular_searches": "أكثر عمليات البحث شيوعًا",
+      "popular_terms": ["كراف ماغا في تل أبيب", "BJJ للأطفال", "مواي تاي في حيفا", "جودو للأطفال"]
+    },
+    "quiz_card": { "kicker": "غير متأكد من أين تبدأ؟", "title": "أجب على 8 أسئلة. سنحدد لك الرياضة المناسبة.", "subtitle": "جسمك، أهدافك، جدولك — دون تخمين.", "cta": "ابدأ" },
+    "rails": {
+      "disciplines_title": "ماذا تريد أن تتعلم؟",
+      "disciplines_subtitle": "من الكراف ماغا إلى التاي تشي — الدليل الكامل لأكثر من 50 رياضة قتالية في إسرائيل.",
+      "near_you_title": "قريب منك",
+      "near_you_subtitle": "أفضل الأندية على بُعد أقل من 5 كم.",
+      "kids_title": "للأطفال",
+      "kids_subtitle": "أندية ببرامج مخصصة للأطفال (3–12 سنة) ومدربين معتمدين وبيئة آمنة.",
+      "cities_title": "حسب المدينة",
+      "cities_subtitle": "8 مدن رئيسية، آلاف الأندية الموثوقة.",
+      "see_all": "عرض الكل"
+    },
+    "trust": {
+      "title": "لماذا Dojan",
+      "verified": { "title": "مراجعات موثقة", "body": "كل مراجعة مرتبطة بحصة تجريبية فعلية. بدون بوتات، بدون تلاعب." },
+      "trial": { "title": "حصة تجريبية مجانية", "body": "تقريبًا كل نادٍ على Dojan يقدم حصة تجريبية مجانية أو بسعر رمزي. بدون ضغط، بدون التزام." },
+      "bilingual": { "title": "عربية، عبرية، وإنجليزية", "body": "منصة بنيت لجميع سكان البلاد وزوّارها. محتوى كامل بخمس لغات."
+      }
+    },
+    "encyclopedia_teaser": { "kicker": "الموسوعة", "title": "كل فن قتالي. القصة الكاملة.", "subtitle": "مقالات متعمقة عن التاريخ والفلسفة والتقنيات والمجتمع لكل فن قتالي يُدرَّس في إسرائيل.", "cta": "كل المقالات" },
+    "footer_cta": { "title": "تدير ناديًا؟", "subtitle": "انشر حصصك، أدر المراجعات، واحصل على عملاء محتملين للحصص التجريبية. مجاني لأول 90 يومًا.", "cta": "أنشئ صفحة النادي" }
+  },
+  "discipline": {
+    "page_title_suffix": " — الدليل الكامل | Dojan",
+    "founded": "تأسست", "origin": "المنشأ", "difficulty": "مستوى الصعوبة", "contact": "مستوى الاحتكاك", "good_for": "مناسبة لـ",
+    "history": "التاريخ", "philosophy": "الفلسفة", "techniques": "التقنيات الأساسية", "famous": "ممارسون مشهورون",
+    "benefits": "ماذا ستكسب", "who_for": "لمن هي", "compare": "قارن مع",
+    "where": "أين تتعلم", "where_subtitle": "أفضل أندية Dojan التي تُدرِّس هذه الرياضة، مرتبة حسب التقييم.",
+    "all_in_city": "كل الأندية في {city}", "faq": "أسئلة شائعة", "related_articles": "مقالات ذات صلة",
+    "good_for_labels": { "kids": "الأطفال", "self-defense": "الدفاع عن النفس", "fitness": "اللياقة البدنية", "competition": "المنافسة", "discipline": "الانضباط", "weight-loss": "إنقاص الوزن", "stress-relief": "تخفيف التوتر" },
+    "family_labels": { "israeli": "إسرائيلي", "japanese": "ياباني", "chinese": "صيني", "korean": "كوري", "thai": "تايلاندي", "brazilian": "برازيلي", "western": "غربي", "mixed": "مختلط", "filipino": "فلبيني", "russian": "روسي" }
+  },
+  "disciplines_hub": { "kicker": "الموسوعة", "title": "كل فن قتالي يُدرَّس في إسرائيل", "subtitle": "أكثر من 50 رياضة. التاريخ، التقنيات، من يُدرِّس وأين. الدليل الأعمق في البلاد.", "filter_by_family": "تصفية حسب العائلة", "filter_all": "الكل" },
+  "gym": {
+    "claimed": "نادٍ موثَّق", "premium": "مميز Dojan", "rating_count": "{count} مراجعة",
+    "trial": "حصة تجريبية", "trial_free": "تجربة مجانية", "trial_priced": "تجربة ₪{price}",
+    "book_trial": "احجز حصة تجريبية", "save": "احفظ", "share": "شارك", "directions": "الاتجاهات", "call": "اتصل", "whatsapp": "واتساب",
+    "about": "عن النادي", "show_more": "اعرض المزيد", "show_less": "اعرض أقل",
+    "schedule": "الجدول الأسبوعي", "schedule_subtitle": "كل الحصص الأسبوعية. اضغط على حصة للحجز.",
+    "instructors": "المدربون", "instructor_years": "{years} سنوات تدريس",
+    "reviews": "المراجعات", "verified_review": "حضور موثق", "review_rating_breakdown": "تقييم على 5 محاور",
+    "rating_dimensions": { "instructor": "المدرب", "facilities": "المرافق", "value": "القيمة", "atmosphere": "الأجواء", "beginner_friendly": "مناسب للمبتدئين" },
+    "all_reviews": "كل المراجعات", "leave_review": "اكتب مراجعة",
+    "amenities": "المرافق", "price_range": "نطاق السعر", "price_value": "₪{min}–{max} / شهر", "languages": "اللغات", "languages_value": "العبرية، الإنجليزية",
+    "similar": "أندية مشابهة قريبة", "faq": "أسئلة شائعة", "last_updated": "آخر تحديث", "report_error": "أبلغ عن خطأ"
+  },
+  "search": {
+    "title": "بحث عن أندية", "results_count": "{count} نتيجة",
+    "no_results_title": "لا توجد أندية مطابقة لهذه المرشحات", "no_results_subtitle": "حاول إزالة مرشح أو توسيع المنطقة.",
+    "clear": "مسح المرشحات", "search_this_area": "ابحث في هذه المنطقة",
+    "filter_disciplines": "الرياضة", "filter_age": "الفئة العمرية", "filter_level": "المستوى", "filter_price": "السعر", "filter_trial": "تجربة متاحة", "filter_beginner": "للمبتدئين",
+    "list": "قائمة", "map": "خريطة", "show_filters": "المرشحات", "hide_filters": "إخفاء", "sort_by": "ترتيب",
+    "sort_options": { "rating": "التقييم", "distance": "المسافة", "price": "السعر" },
+    "filter_age_options": { "kids": "أطفال", "teens": "مراهقون", "adults": "بالغون", "seniors": "65+", "women-only": "نساء فقط" },
+    "filter_level_options": { "beginner": "مبتدئ", "intermediate": "متوسط", "advanced": "متقدم" }
+  },
+  "city": { "page_title_prefix": "فنون القتال في ", "subtitle": "{count} نادٍ مميز في {city}. موثقة، مراجَعة، وجاهزة لحصة تجريبية.", "top_disciplines": "الأكثر شعبية في {city}", "all_gyms": "كل الأندية في {city}", "neighborhoods": "حسب الحي", "related_cities": "مدن أخرى" },
+  "city_discipline": { "title": "{discipline} في {city}", "subtitle": "{count} نادي {discipline} موثوق في {city}. تجربة، مراجعات، وجداول كاملة.", "beginners_guide": "دليل المبتدئين", "related_cities": "{discipline} في مدن أخرى", "related_disciplines": "فنون قتالية أخرى في {city}" },
+  "quiz": {
+    "title": "أي فن قتالي يناسبك؟", "subtitle": "8 أسئلة. إجابة شخصية. ثلاث توصيات مرتبة.",
+    "start": "ابدأ", "next": "التالي", "back": "رجوع", "see_result": "اعرض النتيجة",
+    "progress": "{current} من {total}", "result_title": "نتيجتك", "result_subtitle": "بناءً على إجاباتك، هذه هي الفنون الثلاثة الأنسب لك:",
+    "find_gyms": "ابحث عن أندية قريبة", "share": "شارك النتيجة",
+    "questions": [
+      { "q": "ما دافعك الرئيسي؟", "options": [
+        { "label": "الدفاع عن النفس — أن أحمي نفسي في الشارع", "tags": ["self-defense"] },
+        { "label": "اللياقة والصحة — إنقاص الوزن، قوة أكبر", "tags": ["fitness", "weight-loss"] },
+        { "label": "المنافسة — أحب التحدي", "tags": ["competition"] },
+        { "label": "الهدوء والانضباط — بناء عادة", "tags": ["discipline", "stress-relief"] }
+      ] },
+      { "q": "ما مقدار الاحتكاك الجسدي الذي تقبله؟", "options": [
+        { "label": "أدنى — بدون ضربات على الرأس من فضلك", "tags": ["low-contact"] },
+        { "label": "متوسط — عندما أكون مستعدًا/ة", "tags": ["medium-contact"] },
+        { "label": "كامل — أتيت للتدريب الحقيقي", "tags": ["high-contact"] }
+      ] },
+      { "q": "ما طبيعة جسمك؟", "options": [
+        { "label": "خفيف وسريع", "tags": ["light"] },
+        { "label": "متوسط", "tags": ["medium"] },
+        { "label": "قوي وثقيل", "tags": ["heavy"] }
+      ] },
+      { "q": "أين تشعر بالراحة أكثر؟", "options": [
+        { "label": "واقفًا — لكمات وحركة قدمين", "tags": ["standing"] },
+        { "label": "على الأرض — قبضات واحتكاك", "tags": ["ground"] },
+        { "label": "كلاهما، مرن", "tags": ["both"] }
+      ] },
+      { "q": "ما الإيقاع الذي تفضله؟", "options": [
+        { "label": "سريع وحر", "tags": ["fast"] },
+        { "label": "تقني ومحسوب", "tags": ["technical"] },
+        { "label": "مكثف ومتطلب", "tags": ["intense"] }
+      ] },
+      { "q": "هل تريد أن تنافس مستقبلاً؟", "options": [
+        { "label": "نعم، بجدية", "tags": ["competition"] },
+        { "label": "ربما، يومًا ما", "tags": ["maybe-comp"] },
+        { "label": "لا، لنفسي فقط", "tags": ["personal"] }
+      ] },
+      { "q": "كم جلسة في الأسبوع؟", "options": [
+        { "label": "1–2", "tags": ["light-schedule"] },
+        { "label": "3–4", "tags": ["medium-schedule"] },
+        { "label": "5+", "tags": ["heavy-schedule"] }
+      ] },
+      { "q": "هل لديك إصابات أو قيود؟", "options": [
+        { "label": "لا", "tags": ["no-limits"] },
+        { "label": "ركبتين / ظهر — أحذر", "tags": ["joints"] },
+        { "label": "أكتاف", "tags": ["shoulders"] }
+      ] }
+    ]
+  },
+  "filters": { "showing": "عرض", "of": "من", "results": "نتيجة" },
+  "common": { "see_more": "اعرض المزيد", "see_all": "اعرض الكل", "back": "رجوع", "from": "من", "kids": "أطفال", "teens": "مراهقون", "adults": "بالغون", "women_only": "نساء فقط", "free": "مجانًا", "stars": "نجوم", "minutes_walk": "دقائق سيرًا", "km_away": "{km} كم", "loading": "جاري التحميل…", "error": "حدث خطأ" },
+  "footer": {
+    "tagline": "منصة اكتشاف فنون القتال في إسرائيل.",
+    "explore": "استكشف", "for_business": "للأندية", "company": "الشركة", "legal": "قانوني",
+    "rights": "© 2026 Dojan. جميع الحقوق محفوظة.", "made_with": "صُنع بحب في تل أبيب",
+    "links": { "disciplines": "الفنون القتالية", "cities": "المدن", "quiz": "اعثر على رياضتك", "blog": "أدلة", "list_gym": "أضف ناديك", "pricing": "الأسعار", "for_owners": "لأصحاب الأندية", "about": "عن المنصة", "contact": "اتصل بنا", "press": "صحافة", "privacy": "الخصوصية", "terms": "الشروط" }
+  },
+  "days": { "0": "الأحد", "1": "الإثنين", "2": "الثلاثاء", "3": "الأربعاء", "4": "الخميس", "5": "الجمعة", "6": "السبت", "short": ["أ", "ث", "ث", "ر", "خ", "ج", "س"] }
+}

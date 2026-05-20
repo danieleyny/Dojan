@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { hasLocale, NextIntlClientProvider } from "next-intl";
 import { getMessages, setRequestLocale } from "next-intl/server";
-import { Rubik, Heebo, Inter } from "next/font/google";
-import { routing, type Locale } from "@/i18n/routing";
+import { Rubik, Heebo, Inter, Noto_Sans_Arabic } from "next/font/google";
+import { routing, RTL_LOCALES, type Locale } from "@/i18n/routing";
 import { TopNav } from "@/components/layout/TopNav";
 import { BottomTabBar } from "@/components/layout/BottomTabBar";
 import { Footer } from "@/components/layout/Footer";
@@ -30,6 +30,13 @@ const inter = Inter({
   display: "swap",
 });
 
+const notoArabic = Noto_Sans_Arabic({
+  subsets: ["arabic"],
+  weight: ["400", "500", "600", "700"],
+  variable: "--font-arabic",
+  display: "swap",
+});
+
 export async function generateMetadata({
   params,
 }: {
@@ -49,11 +56,15 @@ export async function generateMetadata({
       ? "מצאי את המועדון, את הדיסציפלינה ואת המאמן/ת המתאימים לך. שיעורי ניסיון, ביקורות מאומתות, ומפה אינטראקטיבית."
       : "Find the gym, discipline, and coach that fit you. Trial classes, verified reviews, and an interactive map across Israel.",
     alternates: {
-      canonical: locale === "he" ? "/" : `/${locale}`,
+      canonical: `/${locale}`,
       languages: {
-        he: "/",
+        he: "/he",
         en: "/en",
-        "x-default": "/",
+        ar: "/ar",
+        es: "/es",
+        fr: "/fr",
+        // x-default → English (international visitors who haven't picked a language)
+        "x-default": "/en",
       },
     },
     openGraph: {
@@ -80,13 +91,13 @@ export default async function LocaleLayout({
   setRequestLocale(locale);
 
   const messages = await getMessages();
-  const dir = locale === "he" ? "rtl" : "ltr";
+  const dir = RTL_LOCALES.includes(locale as Locale) ? "rtl" : "ltr";
 
   return (
     <html
       lang={locale}
       dir={dir}
-      className={`${rubik.variable} ${heebo.variable} ${inter.variable}`}
+      className={`${rubik.variable} ${heebo.variable} ${inter.variable} ${notoArabic.variable}`}
     >
       <body className="min-h-dvh bg-bg text-ink antialiased flex flex-col">
         <NextIntlClientProvider locale={locale} messages={messages}>
